@@ -147,6 +147,9 @@
     #banner_part>.slick-dots{
         bottom:25px;
     }
+    .overlay{
+        display: none !important;
+    }
 
 }
 
@@ -157,7 +160,9 @@
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media(min-width: 1200px) { 
 
-
+    .overlay{
+        display: none !important;
+    }
 
 }
 
